@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+    <id>com.fr.plugin.takeup.detection</id>
+    <name><![CDATA[finedb占用检测]]></name>
+    <active>yes</active>
+    <hidden>no</hidden>
+    <version>1.0.0</version>
+    <env-version>10.0</env-version>
+    <jartime>2019-9-1</jartime>
+    <vendor>lidongy</vendor>
+    <description><![CDATA[finedb占用检测]]></description>
+    <change-notes><![CDATA[
+        <p>[2019-11-18]修改jar包时间</p>
+    ]]></change-notes>
+    <lifecycle-monitor class="com.fr.plugin.takeup.TakeupDetectionLifecycleMonitor"/>
+    <function-recorder class="com.fr.plugin.takeup.TakeupDetectionLifecycleMonitor"/>
+</plugin>
